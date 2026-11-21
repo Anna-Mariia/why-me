@@ -22,13 +22,14 @@
             <div class="logo" onclick="navigate('home')" role="button" tabindex="0"
                 onkeydown="if(event.key==='Enter')navigate('home')"><span class="burst">W</span> WHY ME<span
                     class="accent">.</span></div>
-            <div class="navlinks" id="navlinks"><a href="#" onclick="navigate('jobs');return false">Професії</a><a
-                    href="#" onclick="navigate('mentors');return false">Ментори</a><a href="#"
-                    onclick="navigate('quiz');return false">Тест та аналіз</a><a href="#"
+            <div class="navlinks" id="navlinks"><a href="#" onclick="navigate('home');return false">Головна</a><a
+                    href="#" onclick="navigate('jobs');return false">Професії</a><a href="#"
+                    onclick="navigate('mentors');return false">Ментори</a><a href="#"
+                    onclick="navigate('quiz');return false">Пройти тест</a><a href="#"
                     onclick="navigate('dashboard');return false">Мій простір</a><a href="#"
                     onclick="navigate('about');return false">Про нас</a></div>
-            <div class="navright"><button class="btn btn-small" onclick="startFlow()">Почати дослідження
-                    ↗</button><button class="iconbtn mobile-menu" aria-label="Меню"
+            <div class="navright"><button class="btn btn-small" onclick="startFlow()">Обрати професії ↗</button><button
+                    class="iconbtn mobile-menu" aria-label="Меню"
                     onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button></div>
         </nav>
     </div>
@@ -50,5 +51,7 @@
     <div id="modalroot"></div>
     <script src="script.js" defer></script>
 </body>
+
+</html>
 
 </html>
